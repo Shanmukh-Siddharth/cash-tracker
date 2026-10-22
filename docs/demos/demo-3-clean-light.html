@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Demo 3 — Clean Minimal Light</title>
+<style>
+:root{--bg:#F6F7F6;--surface:#FFFFFF;--text:#101613;--t2:#5A6660;--pri:#059669;--red:#DC2626;--line:rgba(16,22,19,.08)}
+*{box-sizing:border-box;margin:0}body{background:#E8EBE9;color:var(--text);font-family:Inter,system-ui,sans-serif;padding:32px}
+h1{font-size:28px;letter-spacing:-.02em}.sub{color:var(--t2);margin:6px 0 24px}.grid{display:flex;gap:24px;flex-wrap:wrap}
+.phone{width:300px;height:640px;background:#111;border-radius:36px;padding:14px}.screen{background:var(--bg);border-radius:24px;height:100%;overflow:hidden;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;padding:14px 16px;font-size:13px;color:var(--t2)}
+.hero{margin:4px 12px 12px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 4px 16px rgba(16,22,19,.06)}
+.eyebrow{font-size:10px;letter-spacing:.14em;color:var(--t2)}.amt{font-family:monospace;font-size:32px;font-weight:700}
+.row{display:flex;gap:10px;margin:0 12px 12px}.btn{flex:1;text-align:center;border-radius:999px;padding:12px;font-weight:700}.add{background:var(--pri);color:#fff}.sub{background:#fff;border:1px solid var(--red);color:var(--red)}
+.list{margin:0 12px;display:flex;flex-direction:column;gap:8px}.item{display:flex;justify-content:space-between;background:var(--surface);border:1px solid var(--line);padding:10px 12px;border-radius:12px;font-size:13px}.mono{font-family:monospace}
+.nav{margin-top:auto;display:flex;justify-content:space-around;padding:12px;background:var(--surface);border-top:1px solid var(--line);font-size:10px;color:var(--t2)}
+.heat{display:grid;grid-template-columns:repeat(12,1fr);gap:4px;margin:10px 0}.heat i{aspect-ratio:1;border-radius:3px;background:#E2E8E4}.heat i.h{background:var(--pri)}
+.lock{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:20px;text-align:center}
+.note{color:var(--t2);margin-top:24px;max-width:1000px;line-height:1.6}
+</style></head><body>
+<h1>Demo 3 — Clean Minimal Light</h1><p class="sub">Daylight sweet · max readability · same lock + cart + stats</p>
+<div class="grid">
+<div class="phone"><div class="screen"><div class="top"><span>9:41</span><span>Finance</span><span>⚙</span></div>
+<div class="hero"><div class="eyebrow">TOTAL BALANCE</div><div class="amt">₹12,450.00</div><div style="font-size:12px;color:var(--t2)">Cash ₹4,200 · UPI ₹3,250 · Bank ₹5,000</div></div>
+<div class="row"><div class="btn add">+ Add</div><div class="btn sub">− Subtract</div></div>
+<div class="list"><div class="item"><span>Salary · UPI</span><span class="mono">+₹2,000</span></div><div class="item"><span>Chai · Cash</span><span class="mono">−₹30</span></div></div>
+<div class="nav"><span>Home</span><span>History</span><span>+</span><span>Cart</span><span>Stats</span></div></div></div>
+<div class="phone"><div class="screen"><div class="lock"><div style="font-size:40px">◈</div><b>Unlock Finance</b><span style="color:var(--t2);font-size:13px">Fingerprint or PIN</span><div class="btn add" style="width:80%">Unlock</div></div></div></div>
+<div class="phone"><div class="screen"><div class="top"><span>Cart · If-bought ₹3,000 ✓</span></div><div class="hero"><div class="eyebrow">TOTAL ₹250</div><div class="amt" style="font-size:26px">₹250</div><div class="heat"><i></i><i class="h"></i><i></i><i class="h"></i><i></i><i></i><i class="h"></i><i></i><i></i><i></i><i class="h"></i><i></i></div></div><div class="nav"><span>Cart</span><span>Stats</span></div></div></div>
+</div>
+<p class="note"><b>Vibe:</b> simplest sweet daylight use. Pick this if dark feels heavy for daily use.</p>
+</body></html>

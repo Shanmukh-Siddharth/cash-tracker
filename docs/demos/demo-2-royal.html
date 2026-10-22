@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Demo 2 — Royal Trust Dark</title>
+<style>
+:root{--bg:#0A0F1E;--surface:#121A30;--surface2:#1A2440;--text:#EAF0FF;--t2:#A9B7D6;--pri:#4F7CFF;--gold:#FFC24B;--red:#FF6B6B;--line:rgba(234,240,255,.12)}
+*{box-sizing:border-box;margin:0}body{background:#05070F;color:var(--text);font-family:Inter,system-ui,sans-serif;padding:32px}
+h1{font-size:28px;letter-spacing:-.02em}.sub{color:var(--t2);margin:6px 0 24px}.grid{display:flex;gap:24px;flex-wrap:wrap}
+.phone{width:300px;height:640px;background:var(--bg);border:1px solid var(--line);border-radius:36px;padding:14px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.screen{background:linear-gradient(180deg,#101736,var(--bg) 60%);border-radius:24px;height:100%;overflow:hidden;display:flex;flex-direction:column;border:1px solid var(--line)}
+.top{display:flex;justify-content:space-between;padding:14px 16px;font-size:13px;color:var(--t2)}
+.hero{margin:4px 12px 12px;background:rgba(255,255,255,.04);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:20px;padding:18px}
+.eyebrow{font-size:10px;letter-spacing:.16em;color:var(--t2)}.amt{font-family:monospace;font-size:32px;font-weight:700}.chips{display:flex;gap:8px;margin-top:10px}.chip{font-size:11px;background:rgba(79,124,255,.14);border-radius:20px;padding:6px 10px}
+.row{display:flex;gap:10px;margin:0 12px 12px}.btn{flex:1;text-align:center;border-radius:14px;padding:13px;font-weight:700}.add{background:var(--pri);color:#fff}.sub{background:rgba(255,107,107,.12);color:var(--red);border:1px solid var(--red)}
+.list{margin:0 12px;display:flex;flex-direction:column;gap:8px}.item{display:flex;justify-content:space-between;background:rgba(255,255,255,.03);border:1px solid var(--line);padding:10px 12px;border-radius:14px;font-size:13px}.mono{font-family:monospace}
+.nav{margin-top:auto;display:flex;justify-content:space-around;padding:12px;border-top:1px solid var(--line);font-size:10px;color:var(--t2)}
+.heat{display:grid;grid-template-columns:repeat(12,1fr);gap:4px;margin:10px 0}.heat i{aspect-ratio:1;border-radius:4px;background:rgba(79,124,255,.15)}.heat i.h{background:var(--pri)}.heat i.hot{background:var(--gold)}
+.lock{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:20px;text-align:center}
+.note{color:var(--t2);margin-top:24px;max-width:1000px;line-height:1.6}
+</style></head><body>
+<h1>Demo 2 — Royal Trust Dark</h1><p class="sub">Glass hero · rounded 20px cards · blue trust accent · same content, different soul</p>
+<div class="grid">
+<div class="phone"><div class="screen"><div class="top"><span>9:41</span><span>Finance</span><span>⚙</span></div>
+<div class="hero"><div class="eyebrow">TOTAL BALANCE</div><div class="amt">₹12,450.00</div><div class="chips"><span class="chip">Cash ₹4,200</span><span class="chip">UPI ₹3,250</span><span class="chip">Bank ₹5,000</span></div></div>
+<div class="row"><div class="btn add">+ Add</div><div class="btn sub">− Subtract</div></div>
+<div class="list"><div class="item"><span>Salary · UPI</span><span class="mono">+₹2,000</span></div><div class="item"><span>Chai · Cash</span><span class="mono">−₹30</span></div></div>
+<div class="nav"><span>Home</span><span>History</span><span>+</span><span>Cart</span><span>Stats</span></div></div></div>
+<div class="phone"><div class="screen"><div class="lock"><div style="font-size:40px">🔒</div><b>Unlock Finance</b><span style="color:var(--t2);font-size:13px">Fingerprint or PIN · locks instantly</span><div class="btn add" style="width:80%">Use fingerprint</div><span style="font-size:12px;color:var(--t2)">Use PIN instead</span></div></div></div>
+<div class="phone"><div class="screen"><div class="top"><span>Stats · 6M</span><span>⚙</span></div><div class="hero"><div class="eyebrow">HEATMAP</div><div class="heat"><i></i><i class="h"></i><i></i><i class="hot"></i><i></i><i class="h"></i><i></i><i></i><i class="h"></i><i></i><i></i><i class="hot"></i></div><div class="eyebrow">BARS</div><div class="mono" style="font-size:12px">▓▓▓▓▓▓▓░░░ income<br>▓▓▓▓░░░░░░ expense</div></div><div class="nav"><span>Home</span><span>Stats</span></div></div></div>
+</div>
+<p class="note"><b>Vibe:</b> bank-grade trust, glassmorphism hero, blue = secure. Pick this if you want calmer than emerald.</p>
+</body></html>

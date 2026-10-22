@@ -1,0 +1,41 @@
+# Flutter/Dart/Pub
+**/build/
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/coverage/
+**/app.*.symbols
+**/app.*.map.json
+
+# Android Studio / IntelliJ
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# VS Code (uncomment if you don't want to commit launch configs)
+# .vscode/
+
+# OS / Misc
+.DS_Store
+*.log
+*.swp
+*.class
+*.pyc
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Widget Preview
+**/.widget_preview/
+
+# Project-specific: exclude Logos folder (design assets, not source)
+Logos/
+
+# APKs are released as GitHub Release assets, not committed
+*.apk
